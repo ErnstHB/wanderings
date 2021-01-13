@@ -1,0 +1,23 @@
+{
+  "name": "codingjs-solutions",
+  "version": "1.0.0",
+  "description": "Solutions to CodingJS problems by Ernesto",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ErnstHB/Wanderings.git"
+  },
+  "keywords": [
+    "JavaScript",
+    "JS"
+  ],
+  "author": "Ernesto Hernandez Benitez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ErnstHB/Wanderings/issues"
+  },
+  "homepage": "https://github.com/ErnstHB/Wanderings#readme"
+}
