@@ -10,6 +10,6 @@
 *****************************/
 
 function diff21(n){
-  let double_over21 = (n > 21) + 1
-  return Math.abs(n - 21) * double_over21
+  let double_over21 = (n > 21) + 1;
+  return Math.abs(n - 21) * double_over21;
 }
