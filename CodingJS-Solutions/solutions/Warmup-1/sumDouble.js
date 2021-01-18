@@ -12,4 +12,5 @@
 function sumDouble(a, b){
   let same = (a == b) + 1;
   return ((a + b) * same);
+  return Math.max
 }
