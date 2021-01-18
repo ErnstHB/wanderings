@@ -10,7 +10,7 @@ nearHundred(89) → false
 *****************************/
 
 function nearHundred(n, a){
-  let nearOneHundred = Math.abs(n - 100)
-  let nearTwoHundred = Math.abs(n - 200)
-  return(nearOneHundred <= 10 || nearTwoHundred <= 10)
+  let nearOneHundred = Math.abs(n - 100);
+  let nearTwoHundred = Math.abs(n - 200);
+  return(nearOneHundred <= 10 || nearTwoHundred <= 10);
 }

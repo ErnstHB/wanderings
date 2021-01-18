@@ -10,5 +10,5 @@ startHi('hello hi') → false
 *****************************/
 
 function startHi(str){
-  return (str.startsWith('hi'))
+  return (str.startsWith('hi'));
 }

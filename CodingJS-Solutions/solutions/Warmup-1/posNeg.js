@@ -10,11 +10,10 @@ posNeg(-4, -5, true) → true
 *****************************/
 
 function posNeg(a, b, negative){
-  let signs
+  var signs;
   if (negative)
-    signs = (a<0) && (b<0)
-  else{
-    signs = (a * b) < 0
-  }
-  return (signs)
+    signs = (a<0) && (b<0);
+  else
+    signs = (a * b) < 0;
+  return (signs);
 }

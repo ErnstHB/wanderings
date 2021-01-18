@@ -10,5 +10,5 @@ icyHot(2, 120) → false
 *****************************/
 
 function icyHot(temp1, temp2){
-  return ((0 > temp1 && temp2 > 100) || (0 > temp2 && temp1 > 100))
+  return ((0 > temp1 && temp2 > 100) || (0 > temp2 && temp1 > 100));
 }

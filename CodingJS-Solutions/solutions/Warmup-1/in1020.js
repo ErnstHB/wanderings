@@ -10,8 +10,8 @@ in1020(8, 99) → false
 *****************************/
 
 function in1020(a, b){
-  return (in1020one(a) || in1020one(b))
+  return (in1020one(a) || in1020one(b));
 }
 function in1020one(a){
-  return (10 <= a && a <= 20)
+  return (10 <= a && a <= 20);
 }

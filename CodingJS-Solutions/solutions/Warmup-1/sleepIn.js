@@ -10,5 +10,5 @@
 *****************************/
 
 function sleepIn(weekday, vacation){
- return (!weekday || vacation) 
+ return (!weekday || vacation);
 }

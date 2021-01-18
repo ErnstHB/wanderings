@@ -10,5 +10,5 @@ missingChar('kitten', 4) → kittn
 *****************************/
 
 function missingChar(str, n){
-  return (str.slice(0,n) + str.slice(n+1))
+  return (str.slice(0,n) + str.slice(n+1));
 }

@@ -10,6 +10,6 @@ front22('abc') → ababcab
 *****************************/
 
 function front22(str){
-  let firstTwoChars = str.substr(0,2)
-  return (firstTwoChars + str + firstTwoChars)
+  let firstTwoChars = str.substr(0,2);
+  return (firstTwoChars + str + firstTwoChars);
 }

@@ -11,7 +11,7 @@ notString('not bad') → not bad
 
 function notString(str){
   if (str.startsWith("not"))
-     return str
+     return str;
   else
-   return ("not ".concat(str))
+   return ("not ".concat(str));
 }

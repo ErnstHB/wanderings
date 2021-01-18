@@ -9,8 +9,8 @@ loneTeen(13, 13) → false
 *****************************/
 
 function loneTeen(a, b){
-  return ((teen(a) && !teen(b)) || (!teen(a) && teen(b)))
+  return ((teen(a) && !teen(b)) || (!teen(a) && teen(b)));
 }
 function teen(a){
-  return(13 <= a && a <= 19)
+  return(13 <= a && a <= 19);
 }

@@ -10,10 +10,10 @@ startOz('oxx') → o
 *****************************/
 
 function startOz(str){
-  let oz = ""
+  var oz = "";
   if(str.startsWith("o"))
-     oz = "o"
+     oz = "o";
   if(str.substr(1,1) == "z")
-    oz += "z"
-  return oz
+    oz += "z";
+  return oz;
 }

@@ -9,6 +9,6 @@ backAround('a') → aaa
 *****************************/
 
 function backAround(str){
-  let last = str.substr(length-1,1)
-  return (last + str + last)
+  let last = str.substr(length-1,1);
+  return (last + str + last);
 }

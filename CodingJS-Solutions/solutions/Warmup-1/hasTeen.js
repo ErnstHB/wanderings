@@ -10,9 +10,9 @@ hasTeen(20, 10, 13) → true
 *****************************/
 
 function hasTeen(a, b, c){
-  return (teen(a) || teen(b) || teen(c) )
+  return ( teen(a) || teen(b) || teen(c) );
 }
 
 function teen(a){
-  return(13 <= a && a <= 19)
+  return(13 <= a && a <= 19);
 }

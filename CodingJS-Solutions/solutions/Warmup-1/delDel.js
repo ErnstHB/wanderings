@@ -10,10 +10,12 @@ delDel('abcdel') → abcdel
 *****************************/
 
 function delDel(str){
-  let noDelStr
+  var noDelStr;
   if (str.substr(1,3) == "del")
-    noDelStr = (str.substr(0,1) + str.substr(4,str.length-3))
+    noDelStr = (str.substr(0,1) + 
+                str.substr(4,str.length-3)
+                );
   else
-    noDelStr = str
-  return noDelStr
+    noDelStr = str;
+  return noDelStr;
 }

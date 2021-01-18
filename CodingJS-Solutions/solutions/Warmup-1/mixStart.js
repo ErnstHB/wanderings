@@ -10,5 +10,5 @@ mixStart('piz snacks') → false
 *****************************/
 
 function mixStart(str){
-  return(str.substr(1,2) == "ix")
+  return(str.substr(1,2) == "ix");
 }

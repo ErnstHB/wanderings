@@ -10,6 +10,6 @@ front3('abc') → abcabcabc
 *****************************/
 
 function front3(str){
-  let front = str.slice(0,3)
-  return front + front + front
+  let front = str.slice(0,3);
+  return front + front + front;
 }
