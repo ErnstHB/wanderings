@@ -10,7 +10,7 @@ notString('not bad') → not bad
 *****************************/
 
 function notString(str){
-  if(str.startsWith("not")
+  if (str.startsWith("not"))
      return str
   else
    return ("not ".concat(str))
