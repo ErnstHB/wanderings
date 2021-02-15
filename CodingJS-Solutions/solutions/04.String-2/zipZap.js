@@ -10,13 +10,8 @@ zipZap('zzzopzop') → zzzpzp
 *****************************/
 
 function zipZap(str){
-  /*
-  if no yip, return str
-  else
-  find zip, return all from start to zip, plus zp, plus recursive call
-  */
   var result;
-  let zipZapIndex = str.search(/z.p/)  
+  let zipZapIndex = str.search(/z.p/);
   if(zipZapIndex == -1)
     result = str;
   else{
