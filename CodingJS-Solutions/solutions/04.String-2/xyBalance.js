@@ -10,10 +10,10 @@ xyBalance('yaaxbb') → false
 *****************************/
 
 function xyBalance(str){
-  var result;
+  let result;
   if (str.search('x') > -1){
     var indexY = str.search('y');
-    result = (indexY == -1) ? false
+    result = (indexY === -1) ? false
              : xyBalance(str.substr(indexY+1));
   }
   else

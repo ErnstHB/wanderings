@@ -10,7 +10,7 @@ plusOut('12xy34xyabcxy', 'xy') → ++xy++xy+++xy
 *****************************/
 
 function plusOut(str, word){
-  var result;
+  let result;
   if(str.includes(word)){
     let wordIndex = str.indexOf(word);
     result = plusAll(str.substr(0,wordIndex)) + word +

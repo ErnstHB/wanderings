@@ -10,8 +10,8 @@ repeatFront('Ice Cream', 2) → IcI
 *****************************/
 
 function repeatFront(str, n){
-  var substrN = str.substr(0,n);
-  result = (substrN.length > 0) ? 
+  const substrN = str.substr(0,n);
+  const result = (substrN.length > 0) ? 
            substrN.concat(repeatFront(str,n-1)) : "";
   return result;
 }

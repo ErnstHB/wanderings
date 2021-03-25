@@ -10,10 +10,10 @@ sameStarChar('*xa*az') → true
 *****************************/
 
 function sameStarChar(str){
-  var result = true;
+  let result = true;
   if(str.includes('*')){
     for(let i = 1; i < str.length-1; i++){
-      if(str[i] == "*" && str[i-1] != str[i+1]){
+      if(str[i] === "*" && str[i-1] !== str[i+1]){
       result = false;
       }
     }
