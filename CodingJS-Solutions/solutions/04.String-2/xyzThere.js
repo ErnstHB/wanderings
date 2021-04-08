@@ -10,9 +10,8 @@ xyzThere('xyz.abc') → true
 *****************************/
 
 function xyzThere(str){
-  
-  var result;
-  var index = str.search('xyz')
+  let result;
+  const index = str.search('xyz')
   if(index >= 0 && index < str.length){
     result = str[index - 1] != '.' ?
              true : xyzThere(str.substr(index+3));

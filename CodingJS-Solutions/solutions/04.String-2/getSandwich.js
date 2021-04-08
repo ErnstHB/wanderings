@@ -10,9 +10,9 @@ getSandwich('xxbreadyy') →
 *****************************/
 
 function getSandwich(str){
-  var bread1index = str.indexOf('bread');
-  var breadAddon = "";
-  if(bread1index != -1){ 
+  const bread1index = str.indexOf('bread');
+  let breadAddon = "";
+  if(bread1index !== -1){ 
     var addonindex = bread1index+5;
     var bread2index = str.substr(addonindex)
                          .lastIndexOf('bread');
