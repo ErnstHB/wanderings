@@ -14,7 +14,7 @@ function countCode(str){
 }
 
 function countWord(word, str, start = 0, count = 0){
-  var pos = str.substr(start).search(word);
-  return (count == str.length || pos == -1) ?
+  const pos = str.substr(start).search(word);
+  return (count === str.length || pos === -1) ?
          count : countWord(word, str, start+pos+word.length, count+1);
 }

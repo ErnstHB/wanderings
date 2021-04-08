@@ -10,8 +10,8 @@ wordEnds('XY1XY', 'XY') → 11
 *****************************/
 
 function wordEnds(str, word){
-  var result = "";
-  var i = 0;
+  let result = "";
+  let i = 0;
   while(i < str.length){
     if(str.substr(i).startsWith(word)){
       if(i > 0)

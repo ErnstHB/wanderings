@@ -11,7 +11,7 @@ xyzMiddle('AxyzBBB') → false
 
 function xyzMiddle(str){
   const roughHalf = Math.floor(str.length/2);
-  var result;
+  let result;
   if(str.length%2 == 1)
     result = str.substr(roughHalf-1,3) == 'xyz';
   else
