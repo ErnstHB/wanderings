@@ -10,10 +10,10 @@ starOut('sm*eilly') → silly
 *****************************/
 
 function starOut(str){
-  var result; 
+  let result; 
   if(str.includes('*')){
     let starIndex = str.search(/\*/);    
-    let tale = str[starIndex+1] == '*' ?
+    let tale = (str[starIndex+1] === '*') ?
                starOut(str.substr(starIndex+1)) : 
                starOut(str.substr(starIndex+2))
       result  = str.substring(0,starIndex-1) + tale;
