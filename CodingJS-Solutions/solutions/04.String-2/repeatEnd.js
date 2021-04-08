@@ -10,8 +10,8 @@ repeatEnd('Hello', 1) → o
 *****************************/
 
 function repeatEnd(str, n){
-  var substrN = str.substr(length-n);
-  var result = "";
+  const substrN = str.substr(length-n);
+  let result = "";
   for(let i = 0; i < n; i++){
     result += substrN;
   }

@@ -10,7 +10,7 @@ zipZap('zzzopzop') → zzzpzp
 *****************************/
 
 function zipZap(str){
-  var result;
+  let result;
   let zipZapIndex = str.search(/z.p/);
   if(zipZapIndex == -1)
     result = str;
