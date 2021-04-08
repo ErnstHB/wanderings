@@ -10,7 +10,7 @@ oneTwo('tcagdo') → catdog
 *****************************/
 
 function oneTwo(str){
-  var result;
+  let result;
   if(str.length < 3)
     result = "";
   else

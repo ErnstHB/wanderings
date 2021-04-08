@@ -10,7 +10,7 @@ countHi('hihi') → 2
 *****************************/
 
 function countHi(str, index = 0, count = 0){
-  var pos = str.substr(index).search('hi');
-  return (count == str.length || pos == -1) ?
+  const pos = str.substr(index).search('hi');
+  return (count === str.length || pos === -1) ?
          count : countHi(str, index+pos+2, count+1);
 }

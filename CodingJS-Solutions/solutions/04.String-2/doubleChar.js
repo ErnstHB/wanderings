@@ -10,7 +10,7 @@ doubleChar('Hi-There') → HHii--TThheerree
 *****************************/
 
 function doubleChar(str){
-  var strArr = str.split("");
+  let strArr = str.split("");
   for(let i = strArr.length; i >= 0; i--){
     strArr.splice(i,0,strArr[i]);
   }
