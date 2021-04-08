@@ -10,5 +10,5 @@ bobThere('bac') → false
 *****************************/
 
 function bobThere(str){
-  return str.match(/b.b/) != null;
+  return str.match(/b.b/) !== null;
 }
