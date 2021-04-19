@@ -6,7 +6,7 @@ Examples
 *****************************/
 
 function stringSplosion(str){
-  var stringSum = "";
+  let stringSum = "";
   for(let i = 0; i <= str.length; i++){
     stringSum += str.substring(0,i);
   }

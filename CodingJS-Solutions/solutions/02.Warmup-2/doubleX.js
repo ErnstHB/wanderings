@@ -1,6 +1,7 @@
 /*****************************
 Warmup-2 -- doubleX
-Given a string, return true if the first instance of "x" in the string is immediately followed by another "x".
+Given a string, 
+return true if the first instance of "x" in the string is immediately followed by another "x".
 
 Examples
 
@@ -10,8 +11,8 @@ doubleX('xxxxx') → true
 *****************************/
 
 function doubleX(str){
-  var doubleX = false;
-  var i = 0;
+  let doubleX = false;
+  let i = 0;
   while(i < str.length){
     if(str.charAt(i) == 'x'){
       if(str.charAt(i+1) == 'x')
