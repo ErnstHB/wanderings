@@ -16,9 +16,8 @@ withoutString('Hello there', 'x') → Hello there
 */
 
 function withoutString(base, remove){
-  var result;
-  let removeIndex = base.toLowerCase()
-                    .search(remove.toLowerCase());
+  let result;
+  const removeIndex = base.toLowerCase().search(remove.toLowerCase());
   if(removeIndex == -1){
     result = base;
 }
@@ -32,8 +31,8 @@ function withoutString(base, remove){
 }
 
 function simplifySpaces(str){
-  var result;
-  var index = str.indexOf("  ");
+  let result;
+  const index = str.indexOf("  ");
   if(index == -1)
     result = str;
   else{

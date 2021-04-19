@@ -1,6 +1,7 @@
 /*****************************
 String-3 -- countTriple
-We'll say that a "triple" in a string is a char appearing three times in a row. Return the number of triples in the given string. The triples may overlap.
+We'll say that a "triple" in a string is a char appearing three times in a row. 
+Return the number of triples in the given string. The triples may overlap.
 
 Examples
 
@@ -15,8 +16,7 @@ function countTriple(str){
   arr.forEach((letter, index) => {
     let triple = false;
     if(arr[index+2])
-      triple = letter === arr[index+1] && 
-               letter === arr[index+2];
+      triple = letter === arr[index+1] && letter === arr[index+2];
     result += triple;
   });
   return result;

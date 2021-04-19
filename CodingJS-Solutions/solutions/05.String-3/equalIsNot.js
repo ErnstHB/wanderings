@@ -1,6 +1,7 @@
 /*****************************
 String-3 -- equalIsNot
-Given a string, return true if the number of appearances of "is" anywhere in the string is equal to the number of appearances of "not" anywhere in the string (case sensitive).
+Given a string, return true if the number of appearances of "is" anywhere in the string 
+is equal to the number of appearances of "not" anywhere in the string (case sensitive).
 
 Examples
 
@@ -10,8 +11,7 @@ equalIsNot('noisxxnotyynotxisi') → true
 *****************************/
 
 function equalIsNot(str){
-  return countAppearences(str,'is') == 
-         countAppearences(str, 'not');
+  return countAppearences(str,'is') == countAppearences(str, 'not');
 }
 
 function countAppearences(str, word){
