@@ -1,6 +1,7 @@
 /*****************************
 Warmup-1 -- max1020
-Given 2 positive int values, return the larger value that is in the range 10..20 inclusive, or return 0 if neither is in that range.
+Given 2 positive int values, return the larger value that is in the range 10..20 inclusive, 
+or return 0 if neither is in that range.
 
 Examples
 
@@ -10,13 +11,17 @@ max1020(11, 9) → 11
 *****************************/
 
 function amax1020(a, b){
-  var result = 0;
-  if (range1020(a) && range1020(b))
+  let result;
+  const aInRange = range1020(a);
+  const bInRange = range1020(b);
+  if (aInRange && bInRange) {
     result = Math.max(a,b);
-  else if (range1020(a))
-    result = a;
-  else if (range1020(b))
-    result = b;
+  } else if (!(aInRange || bInRange)){
+    result = 0;
+  } else {
+    result = aInRange ? a : b;
+  }
+
   return result;
 }
 

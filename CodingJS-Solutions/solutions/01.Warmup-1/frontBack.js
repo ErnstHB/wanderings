@@ -10,10 +10,9 @@ frontBack('ab') → ba
 *****************************/
 
 function frontBack(str){
-  var newString = "";
+  let newString = "";
   if (str.length > 1){
-    let middleString = str.slice(1, str.length-1);
-    newString = str[str.length-1] + middleString + str[0];
+    newString = str[str.length-1] + str.slice(1, str.length-1) + str[0];
   } else if (str.length == 1)
     newString = str;
   return newString;
