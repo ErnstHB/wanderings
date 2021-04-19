@@ -1,6 +1,7 @@
 /*****************************
 String-2 -- repeatEnd
-Given a string and an int n, return a string made of n repetitions of the last n characters of the string. You may assume that n is between 0 and the length of the string, inclusive.
+Given a string and an int n, return a string made of n repetitions of the last n characters of 
+the string. You may assume that n is between 0 and the length of the string, inclusive.
 
 Examples
 

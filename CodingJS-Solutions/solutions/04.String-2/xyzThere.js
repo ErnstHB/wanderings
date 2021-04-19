@@ -1,6 +1,7 @@
 /*****************************
 String-2 -- xyzThere
-Return true if the given string contains an appearance of "xyz" where the xyz is not directly preceeded by a period (.). So "xxyz" counts but "x.xyz" does not.
+Return true if the given string contains an appearance of "xyz" where the xyz is not directly 
+preceeded by a period (.). So "xxyz" counts but "x.xyz" does not.
 
 Examples
 
@@ -13,8 +14,7 @@ function xyzThere(str){
   let result;
   const index = str.search('xyz')
   if(index >= 0 && index < str.length){
-    result = str[index - 1] != '.' ?
-             true : xyzThere(str.substr(index+3));
+    result = str[index - 1] != '.' ? true : xyzThere(str.substr(index+3));
   } 
   else
     result = false;

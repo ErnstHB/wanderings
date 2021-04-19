@@ -1,6 +1,7 @@
 /*****************************
 String-2 -- sameStarChar
-Returns true if for every '*' (star) in the string, if there are chars both immediately before and after the star, they are the same.
+Returns true if for every '*' (star) in the string, if there are chars both immediately 
+before and after the star, they are the same.
 
 Examples
 
