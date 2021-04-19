@@ -10,10 +10,10 @@ stringE('Heelele') → false
 *****************************/
 
 function stringE(str){
-  var amountOfE = 0;
-  for (let i = 0; i<str.length; i++){
-    if (str.charAt(i) == "e")
-      amountOfE += 1;
+  let amountOfE = 0;
+  for (let i = 0; i < str.length; i++){
+    if (str.charAt(i) == "e") {
+      amountOfE += 1; }
   }
-  return ( 0 < amountOfE && amountOfE <=3
+  return ( 0 < amountOfE && amountOfE <= 3 ); 
 }
