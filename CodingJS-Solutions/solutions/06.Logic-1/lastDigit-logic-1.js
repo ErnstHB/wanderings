@@ -9,12 +9,15 @@ lastDigit(23, 19, 12) → false
 lastDigit(23, 19, 3) → true
 *****************************/
 
-function lastDigit(a, b, c){
-  return lastOnes(a,b) || lastOnes(a,c) || lastOnes(b,c);
+/* Not Actually Available in Logic-1, Redirects to the lastDigit form WarmUp-1
+Got the instructions from the original CodingBat site*/
+
+function lastDigit(a, b, c) {
+  return lastOnes(a, b) || lastOnes(a, c) || lastOnes(b, c);
 }
 
-function lastOnes(a,b){
-	let lastA = +a.toString().split('').pop();
-	let lastB = +b.toString().split('').pop();
-	return lastA === lastB;
+function lastOnes(a, b) {
+  let lastA = +a.toString().split("").pop();
+  let lastB = +b.toString().split("").pop();
+  return lastA === lastB;
 }
